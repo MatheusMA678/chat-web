@@ -7,4 +7,8 @@
 - ReactJS (Vite + TS)
 - TailwindCSS
 
+### Mobile (em progresso...)
 
+- ReactNative (Expo + TS)
+- NativeBase
+- React-Navigation
