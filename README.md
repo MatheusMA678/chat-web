@@ -4,6 +4,8 @@
 
 ## Tecnologias
 
+### Web
+
 - ReactJS (Vite + TS)
 - TailwindCSS
 
