@@ -55,7 +55,7 @@ export default function Root() {
           </p>
         </footer>
       </div>
-      <div className="overflow-y-scroll p-8">
+      <div className="p-8">
         <img 
           src={capa} 
           alt="Capa do Projeto"
