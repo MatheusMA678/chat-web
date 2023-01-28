@@ -1,6 +1,5 @@
-
-
 import { X } from 'phosphor-react'
+
 import avatar from '../assets/images/avatar.png'
 
 export function Top() {
@@ -14,7 +13,7 @@ export function Top() {
         </p>
       </div>
       <button className='transition-opacity hover:opacity-70 active:opacity-50' >
-        <X size={20} color="white" weight="bold" />
+        <a href="/"><X size={20} color="white" weight="bold" /></a>
       </button>
     </div>
   )
