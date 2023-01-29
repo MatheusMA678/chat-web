@@ -4,7 +4,7 @@ import { Top } from "../components/Chat/Top";
 
 export function Chat() {
   return (
-    <div className="flex flex-col justify-between bg-background text-white h-screen w-screen px-16 py-8">
+    <div className="flex flex-col justify-between bg-background text-white h-full w-full px-16 py-8">
       <Top />
       <Middle />
       <Bottom />
