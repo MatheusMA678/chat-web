@@ -1,6 +1,6 @@
-import { Bottom } from "../components/Bottom";
-import { Middle } from "../components/Middle";
-import { Top } from "../components/Top";
+import { Bottom } from "../components/Chat/Bottom";
+import { Middle } from "../components/Chat/Middle";
+import { Top } from "../components/Chat/Top";
 
 export function Chat() {
   return (
@@ -9,5 +9,5 @@ export function Chat() {
       <Middle />
       <Bottom />
     </div>
-  )
+  );
 }

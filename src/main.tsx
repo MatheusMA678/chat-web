@@ -14,12 +14,14 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
+    children: [
+      {
+        path: "chat/1",
+        element: <Chat />
+      }
+    ],
     errorElement: <ErrorPage />
   },
-  {
-    path: "chat/1",
-    element: <Chat />
-  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
