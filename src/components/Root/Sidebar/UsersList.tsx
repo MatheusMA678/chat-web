@@ -1,12 +1,14 @@
 import avatar from "../assets/images/avatar.png";
 
+import { Link } from "react-router-dom";
+
 export function UsersList() {
   return (
     <nav className="p-4 flex-1">
       <ul>
         <li>
-          <a
-            href={`/chat/1`}
+          <Link
+            to={"chat/1"}
             className="flex gap-4 w-full p-2 rounded-lg transition-all hover:bg-gray-700"
           >
             <img src={avatar} alt="Foto de Cecilia Sassaki" />
@@ -17,7 +19,7 @@ export function UsersList() {
                 <span className="text-green-400 text-sm">Online</span>
               </div>
             </div>
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
